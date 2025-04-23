@@ -1,4 +1,4 @@
-# 🍽️ Calorie Tracker App
+# 🍽️ Meal Planner App
 
 A simple full-stack web application to register users, log in securely using JWT authentication, and track meal plans. Built with Go (Gin), PostgreSQL, and a minimal HTML/CSS/JS frontend.
 
