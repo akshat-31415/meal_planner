@@ -17,7 +17,7 @@ func main() {
 	r := routes.SetupRoutes()
 
 	r.Use(cors.New(cors.Config{
-    	AllowOrigins: []string{"https://https://meal-planner-rosy.vercel.app/"},
+    	AllowOrigins: []string{"https://https://meal-planner-rosy.vercel.app"},
     	AllowMethods: []string{"GET", "POST", "PUT", "DELETE"},
 		}))
 
