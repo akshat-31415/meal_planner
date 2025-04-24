@@ -14,7 +14,10 @@ func main() {
 
 	r := routes.SetupRoutes()
 
-	r.Use(cors.Default())
+	r.Use(cors.New(cors.Config{
+    	AllowOrigins: []string{"https://yourfrontenddomain.com"},
+    	AllowMethods: []string{"GET", "POST", "PUT", "DELETE"},
+		}))
 
 	r.Run("0.0.0.0:8080")
 
